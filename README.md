@@ -35,7 +35,7 @@ private_key = rsa_lib.load_private_key("my_private_key.pem")
 public_key = private_key.public_key()
 
 # Load a public key file
-public_key = jrsa.load_public_key("my_public_key.pem")
+public_key = rsa_lib.load_public_key("my_public_key.pem")
 ```
 **Encrypting and Decrypting**
 ```python
