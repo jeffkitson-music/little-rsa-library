@@ -93,7 +93,7 @@ def encrypt(cleartext, public_key):
         ))
     else:
         raise Exception("Message is too long to encrypt! Must be shorter than 2048 bits (about 834 chars).")
-    return ciphertext  # use base64, not hex
+    return ciphertext.decode()  # use base64, not hex
 
 
 def decrypt(ciphertext, private_key):
@@ -118,7 +118,7 @@ def decrypt(ciphertext, private_key):
                 label=None
             )
         )
-    return plaintext
+    return plaintext.decode()
 
 
 def check_message_length(message):
