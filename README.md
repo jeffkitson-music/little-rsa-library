@@ -53,7 +53,7 @@ print(plaintext.decode())
 ```
 
 ## :mega:  Shoutouts
-- [Gabriel Falcão](https://github.com/gabrielfalcao) for [this gist](https://gist.github.com/gabrielfalcao/de82a468e62e73805c59af620904c124) that I read when I couldn't quite get things right, and quite literally gave me the gist. 
+- [Gabriel Falcão](https://github.com/gabrielfalcao) for [this gist](https://gist.github.com/gabrielfalcao/de82a468e62e73805c59af620904c124) that I read when I couldn't quite get things right. It quite literally gave me the gist. 
 
 - [President James K. Polk](https://stackoverflow.com/users/238704/president-james-k-polk) in [this thread](https://stackoverflow.com/questions/45146504/python-cryptography-module-save-load-rsa-keys-to-from-file) on how to save the keys, as the cryptography docs aren't straightforward on this topic. 
 
