@@ -21,7 +21,7 @@ This script is designed for those who want to implement asymmetric RSA encryptio
 import litte_rsa_lib as rsa_lib
 
 # Creating Key Files
-# returns private key, but isn't necessary - usese default filenames
+# returns private key, but isn't necessary - uses default filenames
 pk = rsa_lib.create_key_pair()
 
 # or you can specify your own filenames
