@@ -14,7 +14,7 @@ This script is designed for those who want to implement asymmetric RSA encryptio
 - cryptography (pip install cryptography)
 
 ## :eyes: Example Uses
-**Creating Key Files**
+**Creating and Saving Key Files**
 
 *Note: Not pip installable. Just copy this repo...*
 ```python
