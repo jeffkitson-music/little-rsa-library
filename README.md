@@ -44,11 +44,11 @@ public_key = rsa_lib.load_public_key("my_public_key.pem")
 # Encrypt
 cleartext = "Hello world!"
 ciphertext = rsa_lib.encrypt(cleartext, public_key)
-print(ciphertext.decode())
+print(ciphertext)
 
 # Decrypt
 plaintext = rsa_lib.decrypt(ciphertext, private_key)
-print(plaintext.decode())
+print(plaintext)
 
 ```
 
